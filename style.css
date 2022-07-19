@@ -1,0 +1,154 @@
+@media(min-width: 768px) and (max-width: 1200px){
+    font-size: .team, .bilder, .image, .retro, .foto ;
+}
+*{
+    background-color: teal;
+}
+
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 20px;
+  
+}
+
+
+.Aktuelle{
+    display: none;
+    width: 200px;
+    height: 180px;
+    background-color: green;
+ 
+}
+
+.news:hover .Aktuelle{
+    display:block;
+    position: absolute;
+    
+}
+
+.alte{
+    display: none;
+    width: 200;
+    height: 200;
+    background-color: green;
+    
+}
+    .feriencamp:hover .alte{
+        display:block;
+        position: absolute;
+       
+    }
+
+    .club{
+        display: none;
+        width: 200;
+        height: 60px;
+        background-color: green;
+        flex-direction: column;
+        
+    }
+          .partners:hover .club{
+            display:block;
+            position: absolute;
+            
+          
+    }
+
+        .programme{
+            display: none;
+            width: 200;
+            height: 200;
+            background-color: green;
+    }
+            .fördertraining:hover .programme{
+                display:block;
+                position: absolute;
+              
+    } 
+
+    .player{
+                display: none;
+                width: 200;
+                height: 200;
+                background-color: green;
+        }
+
+    .juniorteam:hover .player{
+                    display:block;
+                    position: absolute;
+                
+    }
+
+    .finanz{
+        display: none;
+        width: 200;
+        height: 200;
+        background-color: green;
+}
+        .sponsoren:hover .finanz{
+            display:block;
+            position: absolute;
+          
+}
+
+.zahlung{
+    display: none;
+    width: 200;
+    height: 200;
+    background-color: green;
+    
+}
+    .preise:hover .zahlung{
+        display:block;
+        position: absolute;
+     
+}
+.icon{
+    background-color: blue;
+    color: brown;
+    width: "200px";
+    height: 100px;
+}
+.bilder img{
+  margin-top: 100px;
+  bilder-poition: center;
+}
+.team img{
+   margin-top: 200px;
+   margin-left: 250px;
+}
+.bilder{
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+.foto{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.image{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.retro{
+    margin-top: 40px;
+}
+.contenair ul{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 250px;
+}
+.section li{
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    
+}
+
+
+
+
+    
