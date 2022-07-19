@@ -1,3 +1,4 @@
+
 @media(min-width: 768px) and (max-width: 1200px){
     font-size: .team, .bilder, .image, .retro, .foto ;
 }
@@ -47,14 +48,21 @@
         width: 200;
         height: 60px;
         background-color: green;
-        flex-direction: column;
+        
         
     }
           .partners:hover .club{
-            display:block;
+            display:flex;
             position: absolute;
+            flex-direction: column;
+            background-color: green;
             
           
+    }
+
+    .nav-item {
+        background-color: #e91e63;
+        text-decoration: none;
     }
 
         .programme{
@@ -146,6 +154,46 @@
     height: 100px;
     margin-top: 60px;
     
+}
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+} 
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+.footer-col .social-links a:hover{
+    color: #24262B;
+    background-color:yellow;
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 500;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    margin-right: 10px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:black;
+    transition: all 0.5s ease;
 }
 
 
