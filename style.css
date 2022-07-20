@@ -1,7 +1,4 @@
 
-@media(min-width: 768px) and (max-width: 1200px){
-    font-size: .team, .bilder, .image, .retro, .foto ;
-}
 *{
     background-color: teal;
 }
@@ -13,6 +10,13 @@
     justify-content: space-around;
     font-size: 20px;
   
+}
+#teamfoto {
+background-image: url(https://www.bocholt.de/typo3temp/pics/internationale_fussball_aka_BOH_5eaa248d1b.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 25vh;
 }
 
 
